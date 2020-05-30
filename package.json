@@ -1,7 +1,7 @@
 {
   "name": "@fkm/chart",
   "description": "Chart widget built around D3.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "dist/bundle.min.js",
   "author": "Florian Mäder <florian@maederbiel.ch>",
   "license": "MIT",
