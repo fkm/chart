@@ -3,9 +3,10 @@
   "description": "Chart widget built around D3.",
   "version": "1.0.0",
   "main": "dist/bundle.min.js",
+  "repository": "fkm/chart",
+  "bugs": "https://github.com/fkm/chart/issues",
   "author": "Florian Mäder <florian@maederbiel.ch>",
   "license": "MIT",
-  "repository": "fkm/chart",
   "publishConfig": {
     "access": "public"
   },
