@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "webpack",
-    "test": "nyc --reporter=html -- mocha --require @babel/register",
+    "test": "nyc mocha --recursive --require @babel/register",
     "lint": "eslint .",
     "release": "curl https://api.github.com/repos/fkm/chart/dispatches -H \"Authorization: token ${GITHUB_TOKEN}\" -d '{ \"event_type\": \"semantic-release\" }'"
   },
